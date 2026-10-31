@@ -1,5 +1,5 @@
-local AfDian = require(76936687761521)    
-local data = AfDian.queryOrderDecoded("202504032246135348102117331")    
+local AfDian = require(YOUR_MAINMODULE_ID)    
+local data = AfDian.queryOrderDecoded("ORDER_ID")    
 
 if data.ec == 200 then
 	if data.data.list and data.data.list[1] then
